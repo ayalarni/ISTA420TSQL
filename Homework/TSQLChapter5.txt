@@ -1,0 +1,33 @@
+#TSQLChapter5,Pages 161-183
+
+##Norma I. Ayala-Rosa
+
+
+1. What is a table expression? A table expression is virtual, it is a named query expression that represents a valid relational table.
+Can you give a technical definition of a table expression?
+
+2.  In what SQL clause are derived tables (table values subqueries) located?  Derived tables are defined in the FROM clause of an outer query, as soon as the outer query is finished, the derived table is gone.
+
+3. Why can you refer to column aliases in an outer query that you define in an inner table value subquery?
+If you have a subquery and a FROM clause, the column exits and you can refer to it later.
+
+4. What SQL key word define a common query expression? WITH is the expression.
+The Common table expressions (CTEs) are defined by using a WITH statement, and the inner query defining CTE must follow all requirements.
+
+5. When using common table expressions, can a subsequent derived table use a table alias declared in a preceding table expression?
+Yes.
+
+6. Can a main query refer to a previously defined common table expression by multiple aliases?
+Yes.
+
+7. In SQL, is a view a durable object? Yes, it is permanently stored.
+
+8. In a view, what does WITH CHECK OPTION do?  Why is this important? It refers to the data.
+
+9. In a view, what does SCHEMABINDING do? Why is this important? It refers to the columns.
+
+10. What is a table value function? It is a reusable table expression that support input parameters.
+
+11. What does the APPLY operator do? It is similar to a JOIN.
+
+12. What are the two forms of the apply operator? Give an example of each. The CROSS apply is similar to a JOIN.
